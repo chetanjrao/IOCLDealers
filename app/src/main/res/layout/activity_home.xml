@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:background="@drawable/bottom_navigation_view_background"
+        android:contentDescription="@string/toolbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <ImageView
+            android:contentDescription="@string/logo"
+            android:layout_width="48dp"
+            android:paddingStart="4dp"
+            android:paddingEnd="0dp"
+            android:src="@drawable/ic_indian_oil_logo"
+            android:layout_centerInParent="true"
+            android:layout_height="48dp" />
+    </RelativeLayout>
+
+    <include layout="@layout/content_home" />
+
+    <android.support.design.widget.BottomNavigationView
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_navigation_menu"
+        android:background="@drawable/bottom_navigation_view_background_top"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+
+
+    </android.support.design.widget.BottomNavigationView>
+
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

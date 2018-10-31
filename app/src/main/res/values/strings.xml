@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">IOCL Dealers</string>
+    <string name="action_settings">Settings</string>
+    <string name="toolbar_layout">ToolBar Layout</string>
+    <string name="logo">Logo</string>
+    <string name="add_dealer">Add Dealer</string>
+    <string name="search">Search</string>
+    <string name="home">Home</string>
+</resources>
